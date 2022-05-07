@@ -1,41 +1,208 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
-  <title>Hello, world!</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
 
 <body>
-  <h1 class="text-center mt-5 display-4 text-primary">mis páginas</h1>
 
-  <a href="https://chistoperez.github.io/Vaccunaccion/"><img
-      src="https://user-images.githubusercontent.com/99354481/158712350-2093efc4-bba9-4279-b362-07cc48e4db98.png"
-      alt="vaccunaccion" style="width:700px"></a>
-  <a href="https://chistoperez.github.io/pokedex/"><img
-      src="https://user-images.githubusercontent.com/99354481/158707832-905938a9-907c-4b25-9894-cbe3fc6a31f0.png"
-      alt="pokedex" style="width:1200px"></a>
+  <header id="header">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <nav id="navbar">
+      <div id="divabout"> <a href="#welcome-section" id="link_about" class="nav-link">About</a></div>
+      <div id="divwork"> <a href="#projects" id="link_work" class="nav-link">Work</a></div>
+      <div id="divcontact"><a href="#contact" id="link_contact" class="nav-link">Contact</a></div>
+    </nav>
+  </header>
+
+  <section id="welcome-section">
+    <div id="welcome-texto">
+      <h1>Hello I'm Christopher</h1>
+      <h3>a Full stack Developer</h3>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div id="text">
+      <h2>These are some of my projects</h2>
+    </div>
+    <div id="tiles">
+
+      <div class="project-tile"><a id="pokedex" href="https://chistoperez.github.io/pokedex/" target="blank"><img
+            src="https://user-images.githubusercontent.com/99354481/158707832-905938a9-907c-4b25-9894-cbe3fc6a31f0.png"
+            alt="pokedex"></a></div>
+
+      <div class="project-tile"><a id="vacunaccion" href="https://chistoperez.github.io/Vaccunaccion/"
+          target="blank"><img
+            src="https://user-images.githubusercontent.com/99354481/167255630-d94fcf23-a60c-47f9-ac30-4759d710b24f.png"
+            alt="vacunnaccion"></a></div>
+
+      <div class="project-tile"><a id="tribute" href="https://codepen.io/christopherperez/full/BamqOVX"
+          target="blank"><img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"
+            alt="tribute"></a></div>
+
+      <div class="project-tile"><a id="survey" href="https://codepen.io/christopherperez/full/wvPYYWG"
+          target="blank"><img
+            src="https://user-images.githubusercontent.com/99354481/167255762-31861beb-8505-4915-8817-1905884dba3c.png"
+            alt="survey"></a></div>
+
+      <div class="project-tile"><a id="landingpage" href="https://codepen.io/christopherperez/full/PoOxwyv"
+          target="blank"><img
+            src="https://user-images.githubusercontent.com/99354481/167255715-b56306e4-2138-4c61-815f-4ac1fee2ff2e.png"
+            alt="landingpage"></a></div>
+
+      <div class="project-tile"><a id="technicaldocumentationpage"
+          href="https://codepen.io/christopherperez/full/qBVLZEo" target="blank"><img
+            src="https://user-images.githubusercontent.com/99354481/167255850-1f466e69-3756-44df-829a-6fe6fb229c23.png"
+            alt="technicaldocumentationpage"></a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Let's work together</h2><br>
+    <a id="profile-link" href="https://www.linkedin.com/in/chistoperez/" target="_blank"><i
+        class="fa fa-linkedin fa-2x"></i> LinkedIn</a>
+    <a id="profile-link" href="https://twitter.com/chistoperez" target="_blank"><i class="fa fa-twitter fa-2x"></i>
+      Twitter</a>
+    <a id="profile-link" href="https://github.com/chistoperez" target="_blank"><i class="fa fa-github fa-2x"></i>
+      GitHub</a>
+    <a id="profile-link" href="https://codepen.io/christopherperez" target="_blank"><i class="fa fa-codepen fa-2x"></i>
+      CodePen</a>
+  </section>
+</body>
+
+</html>
 
 
-  <!-- Optional JavaScript; choose one of the two! -->
+<!-- Optional JavaScript; choose one of the two! -->
+<style>
+  * {
+    box-sizing: border-box;
+  }
 
-  <!-- Option 1: Bootstrap Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
+  body {
+    color: white;
+    margin: 0;
+  }
 
-  <!-- Option 2: Separate Popper and Bootstrap JS -->
-  <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    -->
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  header {
+    background: #C70039;
+    position: sticky;
+    top: 0;
+    left: 0;
+  }
+
+  #navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+  }
+
+  #divabout,
+  #divwork,
+  #divcontact {
+    padding: 20px 40px 20px 20px;
+    font-size: 1.5rem;
+  }
+
+  #welcome-section {
+    background-color: #333;
+  }
+
+  #welcome-texto>h1 {
+    font-size: 3rem;
+  }
+
+  #welcome-texto>h3 {
+    color: red;
+    font-size: 1.7rem;
+    font-weight: 300;
+  }
+
+  #projects {
+    background-color: #456;
+    flex-direction: column;
+
+  }
+
+  #tiles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px;
+  }
+
+
+  img {
+    width: 250px;
+    height: 250px;
+  }
+
+  @media (max-width: 1000px) {
+    #projects {
+      height: 100%;
+      width: 100%;
+    }
+
+    #tiles {
+      display: flex;
+      flex-direction: row;
+      gap: 50px;
+    }
+
+  }
+
+
+  #contact {
+    background-color: #789;
+    flex-direction: column;
+  }
+
+
+  /* body {
+      background-color: rgb(17, 22, 43);
+    }
+
+    h1 {
+      color: rgb(14, 230, 184)
+    }
+
+    h2 {
+      color: rgb(114, 216, 254)
+    }
+</style>
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+*/
+
 </body>
 
 </html>
